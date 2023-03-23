@@ -1,6 +1,6 @@
 import pygame
 
-class base():
+class Game():
     def __init__():
         
         # pygame setup
