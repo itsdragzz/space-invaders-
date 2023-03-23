@@ -25,6 +25,8 @@ class Game():
             screen.fill("purple")
 
             # RENDER YOUR GAME HERE
+            sprite = pygame.sprite.Sprite()
+            sprite.
 
             # flip() the display to put your work on screen
             pygame.display.flip()
