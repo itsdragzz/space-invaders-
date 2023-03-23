@@ -1,7 +1,7 @@
 import pygame
 
 class Game():
-    def __init__():
+    def __init__(self):
         
         # pygame setup
         pygame.init() 
@@ -31,4 +31,8 @@ class Game():
 
             clock.tick(60)  # limits FPS to 60
 
+
             #change
+
+
+game = Game()
