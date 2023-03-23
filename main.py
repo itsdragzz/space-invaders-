@@ -4,9 +4,14 @@ class base():
     def __init__():
         
         # pygame setup
-        pygame.init()
+        pygame.init() 
         screen = pygame.display.set_mode((1280, 720))
         clock = pygame.time.Clock()
+        running = True
+        dt = 0
+        player_pos = pygame.Vector2(screen.get_width() / 2, screen.get_height() / 2)
+
+        screen = pygame.display.set_mode((1280, 720))
         running = True
 
         while running:
@@ -23,7 +28,6 @@ class base():
 
             # flip() the display to put your work on screen
             pygame.display.flip()
-
 
             clock.tick(60)  # limits FPS to 60
 
