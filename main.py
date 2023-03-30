@@ -1,5 +1,11 @@
 import pygame
 
+class Alien(pygame.sprite.Sprite):
+    def __init__(self, position, size, sprite):
+        super().__init__()
+        self.image = pygame.image.load(sprite).convert()
+
+
 class Game():
     def __init__(self):
         
@@ -26,7 +32,7 @@ class Game():
 
             # RENDER YOUR GAME HERE
             sprite = pygame.sprite.Sprite()
-            sprite.
+            sprite.posir
 
             # flip() the display to put your work on screen
             pygame.display.flip()
