@@ -1,13 +1,7 @@
 import pygame
 
-class Alien(pygame.sprite.Sprite):
-    def __init__(self, position, size, sprite):
-        super().__init__()
-        self.image = pygame.image.load(sprite).convert()
-
-
-class Game():
-    def __init__(self):
+class base():
+    def __init__():
         
         # pygame setup
         pygame.init() 
@@ -31,16 +25,17 @@ class Game():
             screen.fill("purple")
 
             # RENDER YOUR GAME HERE
-            sprite = pygame.sprite.Sprite()
-            sprite.posir
 
             # flip() the display to put your work on screen
             pygame.display.flip()
 
             clock.tick(60)  # limits FPS to 60
 
+            #changez
 
-            #change
 
-
-game = Game()
+def secrets(n):
+    #INPUT: n, as number of people
+    #OUPUT: m, as the number of messages 
+    m = 2*(n-1)
+    return m
